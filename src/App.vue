@@ -1,5 +1,4 @@
 <template>
-  <img alt="Vue logo" class="logo" src="./assets/XUMM-oauth-challenge.png" />
   <Front />
 </template>
 

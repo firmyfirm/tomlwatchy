@@ -1,5 +1,7 @@
 <template>
   <div class="container">
+  <h3>Messages</h3>
+    {{ message }}
   <button  @click="getAddresses()" class="sign">Get Addresses</button>
   <div v-if="accountsRetrieved">
   <button  @click="subscribeAll()" class="sign">Subscribe All</button>
@@ -20,8 +22,6 @@
       </tr>
     </tbody>
   </table>
-<h3>Messages</h3>
-{{ message }}
 </div>
 </div>
 </template>
